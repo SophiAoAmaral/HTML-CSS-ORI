@@ -2,7 +2,7 @@
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
-    
+    justify-content: center;
 }
 
 
@@ -17,5 +17,11 @@ h2{
     border: 1px solid pink;
     padding: 20px;
     margin: 0px;
-    flex: 1;
+}
+
+
+.grid{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }
