@@ -5,30 +5,8 @@
     padding: 0;
     box-sizing: border-box
 }
+
+
 body{
-    background-color: #f7f7f7;
-}
-
-header{
-    
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-.logo{
-    margin: 50px;
-}
-
-a{
-    text-decoration: none;
-    background-color: white;
-    padding: 15px;
-    color: black;
-    margin-right: 20px;
-    font-family: "Poppins", sans-serif;
-    text-transform: uppercase;
-    font-weight: 600px;
-  
+    font-family: Arial;
 }
