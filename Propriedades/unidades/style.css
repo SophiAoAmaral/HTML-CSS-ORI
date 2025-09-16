@@ -1,0 +1,11 @@
+body{
+    margin: 0px;
+}
+
+
+div{
+    /*height: 50vh;*/
+    background-color: rgb(109, 166, 216);
+    width: calc(100vw/3);
+    height: 100vh;
+}
