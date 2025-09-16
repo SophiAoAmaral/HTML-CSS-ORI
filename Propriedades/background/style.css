@@ -13,3 +13,25 @@ h1{
     background-color: white;
     padding: 1rem 2rem;
 }
+.pattern{
+    height: 300px;
+    background-color: thistle;
+    background-image: url(imgs/pattern.svg);
+}
+
+.linear{
+    height: 200px;
+    background-image: linear-gradient( 
+        to left,
+        lightblue,
+        lightcoral,
+        pink
+         
+         
+         );
+}
+
+.radial{
+    height: 200px;
+    background-image: radial-gradient( circle,blue, red);
+}

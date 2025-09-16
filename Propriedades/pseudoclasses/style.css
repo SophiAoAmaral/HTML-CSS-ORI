@@ -1,0 +1,53 @@
+a{
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background-color: thistle;
+    color: #217;
+    
+}
+
+a:hover{
+    background-color: lightgrey;
+    color: black;
+}
+a:focus{
+    background-color: #cfa;
+    color: #371;
+    
+}
+a:active{
+    background-color: #ffa;
+    color: #761;
+}
+
+a:visited{
+    background-color: #dda;
+    color: #731;
+}
+
+.lista-1 li:first-child{
+    background-color: #caf;
+}
+
+.lista-1 li:last-child{
+    background-color: tan;
+}
+
+.lista-1 li:nth-child(3){
+    background-color: #371;
+}
+
+.lista-2 li:nth-child(3n){
+background-color: rgb(119, 103, 197);
+}
+
+.lista-3 li:not(:first-child){
+    background-color: #caf;
+}
+
+h2:not(.contato){
+    text-decoration: underline;
+}
